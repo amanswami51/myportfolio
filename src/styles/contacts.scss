@@ -1,0 +1,40 @@
+#contacts{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 20px 0px;
+    >form{
+        width: 50%;
+        >input, >button{
+            width: 100%;
+            border: none;
+            outline: none;
+            background-color: #ded4d4;
+            color: black;
+            font: 20px bolder;
+            margin: 3px 0px;
+            border-radius: 8px;
+            height: 37px;
+            padding: 0px 22px;
+        }
+        >textarea{
+            width: 100%;
+            border: none;
+            outline: none;
+            background-color: #ded4d4;
+            color: black;
+            font: 20px bolder;
+            margin: 3px 0px;
+            border-radius: 8px;
+            padding: 0px 22px;
+        }
+        >button{
+            cursor: pointer;
+            &:hover{
+                background-color: #d8b5b5;
+            }
+        }
+
+    }
+}

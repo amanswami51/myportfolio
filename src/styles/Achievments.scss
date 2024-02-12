@@ -1,0 +1,47 @@
+#Achievments {
+    width: 100%;
+    // height: 170vh;
+    padding-top:120px;
+    > section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      margin: 2px 60px;
+      > * {
+        display: flex;
+        align-items: center;
+        background-color: brown;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.3s;
+        &:hover {
+          box-shadow: 0 0 5px 15px $color1;
+        }
+      }
+  
+      .AchievmentsItem1 {
+        >img{
+          width: 465px;
+          height: 274px;
+        }
+      }
+      .AchievmentsItem2{
+        >img{ 
+          width: 465px;
+          height: 274px;
+        }
+      }
+      .AchievmentsItem3{
+        >img{
+          width: 318px;
+          height: 357px;
+        }
+      }
+      .AchievmentsItem4 {
+        >img{
+          width: 317px;
+          height: 357px;
+        }
+      }
+    }
+  }

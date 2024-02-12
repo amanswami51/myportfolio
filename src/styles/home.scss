@@ -1,0 +1,65 @@
+#home{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    padding: 62px 80px;
+    section{
+        &:first-of-type{
+            display: flex;
+            flex-direction:column ;
+            justify-content: space-evenly;
+            flex:0.5;
+            .div__second{
+                button{
+                    padding:2px 5px;
+                    border-radius: 5px;
+                    border-width: 0.5px;
+                    outline: none;
+                    margin-right: 10px;
+                    background-color: orange;
+                    color: white;
+                    font: 20px bold;
+                    cursor:pointer;
+                    &:hover{
+                        background-color: rgb(229, 156, 21);
+                    }
+                }
+                span{
+                    color: black;
+                    font-size: 22px;
+                    margin:0px 15px
+                }
+            }
+            .div__third{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                span{
+                    font-size: 35px;
+                    font-weight: bolder;
+                }
+            }
+        }
+        &:last-of-type{
+            flex:0.5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div>img{
+                height: 28vmax;
+                width: 23vmax;
+                border-radius: 10px;               
+            }
+            
+        }
+    }
+    a>svg{
+        position: absolute;
+        top: 33pc;
+        right: 50%;
+        font-size: 25px;
+        animation: animateSvg 0.7s infinite linear alternate;
+    }
+}

@@ -1,0 +1,33 @@
+#projects{
+    padding-top: 120px;
+    width: 100%;
+    .projects__div{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 25vmax;
+        margin: 0px 49px;
+        border-radius: 19px;
+        background-color: #ae9c7a;
+        font-size: 25px;
+        &:hover{
+            background-color: #99d1ef;
+            filter:drop-shadow(2px 4px 6px black);
+        }
+        >a>button{
+            margin-top: 10px;
+            padding: 1px 30px;
+            font-size: 25px;
+            background-color: darkgrey;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            &:hover{
+                box-shadow: 5px 5px 5px 5px blueviolet;
+                background-color: rgb(211, 185, 236);
+            }
+        }
+    }
+}

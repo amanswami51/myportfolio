@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Open+Sans:ital,wght@0,300;0,700;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+@import "statics";
+@import "headers";
+@import "home";
+@import "animation";
+@import "Projects";
+@import "Experiance";
+@import "Achievments";
+@import "contacts";
+@import "footer";
+@import "mediaQuery";
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: $text2;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: darkgray;
+  overflow-x: hidden;
+}

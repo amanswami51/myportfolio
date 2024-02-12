@@ -1,0 +1,126 @@
+{
+    "projects": [
+      {
+        "date": "08/07/2023",
+        "title": "textUtiles",
+        "description": "It is helpful for manipulating the text peragraph like Convert to uppercase, Lowercase, Remove extra space etc.",
+        "url": null,
+        "gitlink":"https://github.com/amanswami51/textUtiles.git",
+        "technologies":"React js, Bootstrap"
+      },
+      {
+        "date": "17/07/2023",
+        "title": "NewsMonkey",
+        "description": "This app can be useful for reading daily updated news of every fields, like Entertainment, Technology, Sports, Politics etc.",
+        "url": null,
+        "gitlink":"https://github.com/amanswami51/NewsMonkey.git",
+        "technologies":"React js, NewsAPI, Bootstrap"
+      },
+      {
+        "date": "13/08/2023",
+        "title": "iNoteBook by using React, Express",
+        "description": "This app can be useful for storing our important notes, memories on cloud. All CRUD(create, read, update, delete) operation can be perform in this web app.",
+        "url": null,
+        "gitlink":"https://github.com/amanswami51/iNoteBookReactExpress.git",
+        "technologies":"React js, Contextapi, Bootstrap, Nodejs, Express js, MongoDb"
+      },
+      {
+        "date": "26/08/2023",
+        "title": "iNoteBook by using React, Firebase",
+        "description": "This app can be useful for storing our important notes, memories on cloud. All CRUD(create, read, update, delete) operation can be perform in this web app.",
+        "url": "https://inotebook-8824.web.app",
+        "gitlink":"https://github.com/amanswami51/iNoteBookWebApp.git",
+        "technologies":"React js, Context API, Bootstrap, Firebase"
+      },
+      {
+        "date": "10/09/2023",
+        "title": "Linkedin clone",
+        "description": "In this projects, I work more on designing not more on funtional part but you can upload your posts(login is require)",
+        "url": null,
+        "gitlink":"https://github.com/amanswami51/Linkedin-clone.git",
+        "technologies":"React js, Redux toolkit, CSS, Firebase"
+      },
+      {
+        "date": "06/05/2023",
+        "title": "Calculator",
+        "description": "There are three calculator here, first is numerical integer, second is Tip calculator for calculating the total bill amount including tip money in restaurant and third is conversions between two dimensions",
+        "url": null,
+        "gitlink":"https://github.com/amanswami51/calculator.git",
+        "technologies":"HTML, CSS, JS"
+      },
+      {
+        "date": "13/05/2023",
+        "title": "Paper Rock Scissors game",
+        "description": "",
+        "url": null,
+        "gitlink":"https://github.com/amanswami51/Paper_Rock_Scissors.git",
+        "technologies":"HTML, CSS, JS"
+      },
+      {
+        "date": "20/05/2023",
+        "title": "Snake game",
+        "description": "",
+        "url": null,
+        "gitlink":"https://github.com/amanswami51/snake_game_repo.git",
+        "technologies":"HTML, CSS, JS"
+      },
+      {
+        "date": "27/05/2023",
+        "title": "SuperHero App",
+        "description": "",
+        "url": null,
+        "gitlink":"https://github.com/amanswami51/superHero.git",
+        "technologies":"HTML, CSS, JS, superheroapi"
+      },
+      {
+        "date": "07/10/2023",
+        "title": "Portfolio",
+        "description": "This is my personal portfolio. It contains About me, My Projects, Achievements, Experience, My Social Media handler(Linkedin, GitHub, Instagram). You can also send messages for any queries.",
+        "url": null,
+        "gitlink":"/",
+        "technologies":"React js, SCSS (SASS), Firebase"
+      }    
+    ],
+    "experiance":[
+        {
+          "name": "NPTEL Modern C++",
+          "date": "Jan-Apr 2023"
+        },
+        {
+          "name": "Calculator",
+          "date": "06/05/2023"
+        },
+        {
+          "name": "Paper Rock Scissors game",
+          "date": "13/05/2023"
+        },
+        {
+          "name": "Snake game",
+          "date": "20/05/2023"
+        },
+        {
+          "name": "SuperHero App",
+          "date": "27/05/2023"
+        },
+        {
+          "name": "textutiles",
+          "date": "08/07/2023"
+        },
+        {
+          "name": "NewsMonkey",
+          "date": "17/07/2023"
+        },
+        {
+          "name": "iNoteBook",
+          "date": "13/08/2023"
+        },
+        {
+          "name": "Linkedin clone",
+          "date": "10/09/2023"
+        },
+        {
+          "name": "Portfolio",
+          "date": "7/10/2023"
+        }
+    ]
+  }

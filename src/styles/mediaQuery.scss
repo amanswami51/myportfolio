@@ -1,0 +1,332 @@
+@media screen and (max-width:1040px){
+  //projects*********************************
+  #projects{
+    .projects__div{
+        height: 40vmax;
+        margin: 0px 30px;
+        font-size: 22px;
+    }
+  }
+
+  //Achievments***********************************
+  #Achievments {
+    // height: 150vh;
+    > section {
+      margin: 2px 0px;
+  
+      .AchievmentsItem1 {
+        >img{
+          width: 370px;
+          height: 274px;
+        }
+      }
+      .AchievmentsItem2{
+        >img{ 
+          width: 370px;
+          height: 274px;
+        }
+      }
+    }
+  }
+  
+}
+
+
+/////////////////////////////////////////////////////////////////////
+
+@media screen and (max-width:830px) {
+  //header*************************************
+  nav {
+    padding: 0 $p_md;
+  }
+
+}
+
+
+
+
+//////////////////////////////////////////////////////////////////////
+
+@media screen and (max-width: 770px) {
+
+  //header*********************************
+  nav {
+    >div>a {
+      display: none;
+    }
+  }
+  .navBtn {
+    color: black;
+    display: block;
+  }
+
+  //home*****************************************
+  #home{
+    section{
+        &:last-of-type{
+            div>img{
+                height: 46vmax;
+                width: 33vmax;              
+            }
+        }
+    }
+  }
+
+
+  //projects**********************************************
+  #projects{
+    .projects__div{
+        height: 55vmax;
+    }
+  }
+
+   //Achievments*****************************************
+   #Achievments {
+    > section {
+      gap: 1rem;
+  
+      .AchievmentsItem1 {
+        >img{
+          width: 300px;
+          height: 220px;
+        }
+      }
+      .AchievmentsItem2{
+        >img{ 
+          width: 300px;
+          height: 220px;
+        }
+      }
+    }
+  }
+
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+@media screen and (max-width:650px){
+
+   //home**********************************************
+   #home{
+    padding: 62px 14px;
+    section{
+        &:last-of-type{
+            div>img{
+                height: 56vmax;
+                width: 35vmax;            
+            }
+            
+        }
+    }
+  }
+  //Achievments***************************************
+  #Achievments {
+    // height: 325vh;
+    > section {
+      grid-template-columns: 1fr;
+  
+      .AchievmentsItem1 {
+        >img{
+          width: 450px;
+          height: 300px;
+        }
+      }
+      .AchievmentsItem2{
+        >img{ 
+          width: 450px;
+          height: 300px;
+        }
+      }
+      .AchievmentsItem3{
+        >img{
+          width: 380px;
+          height: 500px;
+        }
+      }
+      .AchievmentsItem4 {
+        >img{
+          width: 380px;
+          height: 500px;
+        }
+      }
+    }
+  }
+
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+
+@media screen and (max-width:550px){
+  //home****************************************
+  #home{
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 126vh;
+    padding: 62px 50px 0px 50px;
+    section{
+        &:first-of-type{
+            .Typewriter{
+              font-size: 20px;
+            }
+            .div__third{
+                span{
+                    font-size: 40px;
+                }
+                >p{
+                  font-size: 25px;
+                }
+                >h3{
+                  font-size: 35px;
+                }
+            }
+        }
+        &:last-of-type{
+            div>img{
+                height: 57vmax;
+                width: 47vmax;            
+            }
+            
+        }
+    }
+  }
+
+
+   //projects*********************************************
+   #projects{
+    .projects__div{
+        height: 80vmax;
+    }
+  }
+
+
+
+  //experiance**********************************************
+  #experiance {
+    .timelineItem {
+      padding: 1rem 1.5rem;
+      >h1{
+        font-size: 22px;
+      }
+    }
+  }
+
+  //Achievments***********************************
+   #Achievments {
+    // height: 280vh;
+    > section {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+  
+      .AchievmentsItem1 {
+        >img{
+          width: 370px;
+          height: 274px;
+        }
+      }
+      .AchievmentsItem2{
+        >img{ 
+          width: 370px;
+          height: 274px;
+        }
+      }
+      .AchievmentsItem3{
+        >img{
+          width: 318px;
+          height: 357px;
+        }
+      }
+      .AchievmentsItem4 {
+        >img{
+          width: 317px;
+          height: 357px;
+        }
+      }
+    }
+  }
+
+
+  //contacts******************************************
+   #contacts{
+    // height: 65vh;
+    >form{
+        width: 80%;
+    }
+  }
+  
+}
+
+// //////////////////////////////////////////////////////////////////////////
+@media screen and (max-width:420px) {
+  //header***********************************
+  .navPhone{
+    height: 103vh;
+  }
+
+  //home**********************************************************
+  #home{
+    flex-direction: column;
+    height: 170vh;
+    padding: 52px 25px 0px 25px;
+    section{
+        &:first-of-type{
+            .Typewriter{
+              font-size: 20px;
+            }
+            .div__third{
+                span{
+                    font-size: 40px;
+                }
+                >p{
+                  font-size: 25px;
+                }
+                >h3{
+                  font-size: 35px;
+                }
+            }
+        }
+        &:last-of-type{
+            div>img{
+                height: 57vmax;
+                width: 40vmax;            
+            }
+            
+        }
+    }
+    a>svg{
+      top: 29.3pc;
+      right: 6%;
+    }
+  }
+
+  //experiance**********************************************************
+  #experiance{
+    // height: 100vh;
+    padding-top: 38px;
+    .timelineContainer {
+      &::after {
+        left: 17%;
+      }
+    }
+    .timelineItem {
+      padding: 1rem 3rem;
+      &:nth-child(odd) {
+        text-align: left;
+      }
+      &:nth-child(even) {
+        text-align: left;
+      }
+      &::after {
+        left: -16px;
+      }
+    }
+    .leftItem {
+      left: 17%;
+    }
+    .rightItem {
+      left: 17%;
+    }
+  }
+ 
+}
